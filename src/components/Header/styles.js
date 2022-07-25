@@ -1,6 +1,12 @@
 import { alpha, makeStyles } from '@material-ui/core/styles';
+import { brown } from '@material-ui/core/colors';
+
+const accent = brown[600];
 
 export default makeStyles((theme) => ({
+  appBar: {
+    background: accent,
+  },
   title: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
