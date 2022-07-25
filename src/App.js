@@ -34,7 +34,7 @@ const App = () => {
                 width: "100%",
             }}>
                 <Grid item xs={12} md={4}>
-                    <List />
+                    <List places={places}/>
                 </Grid>
                 <Grid item xs={12} md={8}>
                     <Map setCoordinates={setCoordinates} setBounds={setBounds} coordinates={coordinates} />
